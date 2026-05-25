@@ -49,7 +49,6 @@ io.on('connection', (socket) => {
 app.use(helmet());
 app.use(cors({
   origin: '*',
-  credentials: true,
 }));
 
 // Rate Limiting
